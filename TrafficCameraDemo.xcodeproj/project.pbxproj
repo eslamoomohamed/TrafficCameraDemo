@@ -7,15 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		194496CE2879A97F00A316C0 /* NetworkMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194496CD2879A97F00A316C0 /* NetworkMock.swift */; };
+		194496D02879AB7900A316C0 /* MockNetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194496CF2879AB7900A316C0 /* MockNetworkManagerTests.swift */; };
+		196CF7CB28784CC1008E351F /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196CF7CA28784CC1008E351F /* MapVC.swift */; };
+		196CF7CD28784CDD008E351F /* MapVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 196CF7CC28784CDD008E351F /* MapVC.storyboard */; };
+		196CF7D728785781008E351F /* TrafficBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196CF7D628785781008E351F /* TrafficBase.swift */; };
+		196CF7D9287857BF008E351F /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196CF7D8287857BF008E351F /* Items.swift */; };
+		196CF7DB287857DF008E351F /* Cameras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196CF7DA287857DF008E351F /* Cameras.swift */; };
+		196CF7DD287857F8008E351F /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196CF7DC287857F8008E351F /* Location.swift */; };
+		196CF7DF2878581D008E351F /* ImageMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196CF7DE2878581D008E351F /* ImageMetadata.swift */; };
+		196CF7E12878584F008E351F /* ApiInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196CF7E02878584F008E351F /* ApiInfo.swift */; };
+		196CF7E6287858D4008E351F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196CF7E5287858D4008E351F /* NetworkManager.swift */; };
+		196CF7E928785908008E351F /* ErrorMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196CF7E828785908008E351F /* ErrorMessages.swift */; };
+		196CF7EB28785920008E351F /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196CF7EA28785920008E351F /* Constant.swift */; };
+		196CF7ED28785AA3008E351F /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196CF7EC28785AA3008E351F /* MapViewModel.swift */; };
+		196CF7F128785E1E008E351F /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196CF7F028785E1E008E351F /* UIViewController+Extension.swift */; };
+		196CF7F528785E5B008E351F /* DefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196CF7F428785E5B008E351F /* DefaultView.swift */; };
+		196CF7F728785FC0008E351F /* AnnotaionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196CF7F628785FC0008E351F /* AnnotaionsViewModel.swift */; };
+		196CF7FA28787490008E351F /* MKMapView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196CF7F928787490008E351F /* MKMapView+Extension.swift */; };
+		196CF80028788289008E351F /* MapViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196CF7FF28788289008E351F /* MapViewModelTests.swift */; };
+		196CF8032878837B008E351F /* XCTestCase+loadFromStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196CF8022878837B008E351F /* XCTestCase+loadFromStub.swift */; };
 		19C0E0AB2877233500B58EB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C0E0AA2877233500B58EB8 /* AppDelegate.swift */; };
 		19C0E0AD2877233500B58EB8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C0E0AC2877233500B58EB8 /* SceneDelegate.swift */; };
-		19C0E0AF2877233500B58EB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C0E0AE2877233500B58EB8 /* ViewController.swift */; };
-		19C0E0B22877233500B58EB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19C0E0B02877233500B58EB8 /* Main.storyboard */; };
 		19C0E0B42877233F00B58EB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19C0E0B32877233F00B58EB8 /* Assets.xcassets */; };
 		19C0E0B72877233F00B58EB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19C0E0B52877233F00B58EB8 /* LaunchScreen.storyboard */; };
 		19C0E0C22877234000B58EB8 /* TrafficCameraDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C0E0C12877234000B58EB8 /* TrafficCameraDemoTests.swift */; };
 		19C0E0CC2877234000B58EB8 /* TrafficCameraDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C0E0CB2877234000B58EB8 /* TrafficCameraDemoUITests.swift */; };
 		19C0E0CE2877234000B58EB8 /* TrafficCameraDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C0E0CD2877234000B58EB8 /* TrafficCameraDemoUITestsLaunchTests.swift */; };
+		19C0E0E3287725DB00B58EB8 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C0E0E2287725DB00B58EB8 /* BaseCoordinator.swift */; };
+		19C0E0E62877260E00B58EB8 /* CoordinatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C0E0E52877260E00B58EB8 /* CoordinatorType.swift */; };
+		19C0E0E82877262D00B58EB8 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C0E0E72877262D00B58EB8 /* Coordinator.swift */; };
+		19C0E0EA2877263900B58EB8 /* StoryboardLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C0E0E92877263900B58EB8 /* StoryboardLoad.swift */; };
+		19C0E0EE287726E700B58EB8 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C0E0ED287726E700B58EB8 /* MainCoordinator.swift */; };
+		19C0E0F02877274F00B58EB8 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C0E0EF2877274F00B58EB8 /* HomeVC.swift */; };
+		19C0E0F3287727A000B58EB8 /* HomeVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19C0E0F2287727A000B58EB8 /* HomeVC.storyboard */; };
+		19C0E0F6287727E500B58EB8 /* HomeVCCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C0E0F5287727E500B58EB8 /* HomeVCCoordinator.swift */; };
+		19F110AE2878A3D8002BCA8D /* traficDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F110AD2878A3D8002BCA8D /* traficDetails.swift */; };
+		19F110B02878A3EC002BCA8D /* traficDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19F110AF2878A3EC002BCA8D /* traficDetails.storyboard */; };
+		19F110B22878A717002BCA8D /* TraficDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F110B12878A717002BCA8D /* TraficDetailsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +65,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		194496CD2879A97F00A316C0 /* NetworkMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMock.swift; sourceTree = "<group>"; };
+		194496CF2879AB7900A316C0 /* MockNetworkManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkManagerTests.swift; sourceTree = "<group>"; };
+		196CF7CA28784CC1008E351F /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		196CF7CC28784CDD008E351F /* MapVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MapVC.storyboard; sourceTree = "<group>"; };
+		196CF7D628785781008E351F /* TrafficBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficBase.swift; sourceTree = "<group>"; };
+		196CF7D8287857BF008E351F /* Items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
+		196CF7DA287857DF008E351F /* Cameras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cameras.swift; sourceTree = "<group>"; };
+		196CF7DC287857F8008E351F /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		196CF7DE2878581D008E351F /* ImageMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageMetadata.swift; sourceTree = "<group>"; };
+		196CF7E02878584F008E351F /* ApiInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiInfo.swift; sourceTree = "<group>"; };
+		196CF7E5287858D4008E351F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		196CF7E828785908008E351F /* ErrorMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessages.swift; sourceTree = "<group>"; };
+		196CF7EA28785920008E351F /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		196CF7EC28785AA3008E351F /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		196CF7F028785E1E008E351F /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		196CF7F428785E5B008E351F /* DefaultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultView.swift; sourceTree = "<group>"; };
+		196CF7F628785FC0008E351F /* AnnotaionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotaionsViewModel.swift; sourceTree = "<group>"; };
+		196CF7F928787490008E351F /* MKMapView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKMapView+Extension.swift"; sourceTree = "<group>"; };
+		196CF7FF28788289008E351F /* MapViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModelTests.swift; sourceTree = "<group>"; };
+		196CF8022878837B008E351F /* XCTestCase+loadFromStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+loadFromStub.swift"; sourceTree = "<group>"; };
 		19C0E0A72877233500B58EB8 /* TrafficCameraDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficCameraDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19C0E0AA2877233500B58EB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19C0E0AC2877233500B58EB8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		19C0E0AE2877233500B58EB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		19C0E0B12877233500B58EB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		19C0E0B32877233F00B58EB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19C0E0B62877233F00B58EB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19C0E0B82877233F00B58EB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +96,17 @@
 		19C0E0C72877234000B58EB8 /* TrafficCameraDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrafficCameraDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19C0E0CB2877234000B58EB8 /* TrafficCameraDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficCameraDemoUITests.swift; sourceTree = "<group>"; };
 		19C0E0CD2877234000B58EB8 /* TrafficCameraDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficCameraDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		19C0E0E2287725DB00B58EB8 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		19C0E0E52877260E00B58EB8 /* CoordinatorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorType.swift; sourceTree = "<group>"; };
+		19C0E0E72877262D00B58EB8 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		19C0E0E92877263900B58EB8 /* StoryboardLoad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardLoad.swift; sourceTree = "<group>"; };
+		19C0E0ED287726E700B58EB8 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		19C0E0EF2877274F00B58EB8 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		19C0E0F2287727A000B58EB8 /* HomeVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeVC.storyboard; sourceTree = "<group>"; };
+		19C0E0F5287727E500B58EB8 /* HomeVCCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVCCoordinator.swift; sourceTree = "<group>"; };
+		19F110AD2878A3D8002BCA8D /* traficDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = traficDetails.swift; sourceTree = "<group>"; };
+		19F110AF2878A3EC002BCA8D /* traficDetails.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = traficDetails.storyboard; sourceTree = "<group>"; };
+		19F110B12878A717002BCA8D /* TraficDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraficDetailsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +134,188 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		194496CB2879A95100A316C0 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				194496CC2879A95B00A316C0 /* Mock */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		194496CC2879A95B00A316C0 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				194496CD2879A97F00A316C0 /* NetworkMock.swift */,
+				194496CF2879AB7900A316C0 /* MockNetworkManagerTests.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		196CF7C928784CA5008E351F /* MapFlow */ = {
+			isa = PBXGroup;
+			children = (
+				196CF7D1287852DC008E351F /* MapVC */,
+				196CF7D2287852ED008E351F /* ViewModel */,
+				196CF80728789329008E351F /* ImageVC */,
+			);
+			path = MapFlow;
+			sourceTree = "<group>";
+		};
+		196CF7D1287852DC008E351F /* MapVC */ = {
+			isa = PBXGroup;
+			children = (
+				196CF7CA28784CC1008E351F /* MapVC.swift */,
+				196CF7CC28784CDD008E351F /* MapVC.storyboard */,
+			);
+			path = MapVC;
+			sourceTree = "<group>";
+		};
+		196CF7D2287852ED008E351F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				196CF7EC28785AA3008E351F /* MapViewModel.swift */,
+				196CF7F628785FC0008E351F /* AnnotaionsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		196CF7D428785756008E351F /* Ponso */ = {
+			isa = PBXGroup;
+			children = (
+				196CF7D528785771008E351F /* Traffic */,
+			);
+			path = Ponso;
+			sourceTree = "<group>";
+		};
+		196CF7D528785771008E351F /* Traffic */ = {
+			isa = PBXGroup;
+			children = (
+				196CF7D628785781008E351F /* TrafficBase.swift */,
+				196CF7D8287857BF008E351F /* Items.swift */,
+				196CF7DA287857DF008E351F /* Cameras.swift */,
+				196CF7DC287857F8008E351F /* Location.swift */,
+				196CF7DE2878581D008E351F /* ImageMetadata.swift */,
+				196CF7E02878584F008E351F /* ApiInfo.swift */,
+			);
+			path = Traffic;
+			sourceTree = "<group>";
+		};
+		196CF7E2287858B2008E351F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				196CF7E3287858BB008E351F /* Manager */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		196CF7E3287858BB008E351F /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				196CF7E4287858C5008E351F /* NetworkLayer */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		196CF7E4287858C5008E351F /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				196CF7E5287858D4008E351F /* NetworkManager.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		196CF7E7287858FE008E351F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				196CF7E828785908008E351F /* ErrorMessages.swift */,
+				196CF7EA28785920008E351F /* Constant.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		196CF7EE28785E03008E351F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				196CF7F82878746A008E351F /* MKMapView */,
+				196CF7EF28785E0C008E351F /* UIViewController */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		196CF7EF28785E0C008E351F /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				196CF7F028785E1E008E351F /* UIViewController+Extension.swift */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		196CF7F228785E42008E351F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				196CF7F328785E4D008E351F /* Views */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		196CF7F328785E4D008E351F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				196CF7F428785E5B008E351F /* DefaultView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		196CF7F82878746A008E351F /* MKMapView */ = {
+			isa = PBXGroup;
+			children = (
+				196CF7F928787490008E351F /* MKMapView+Extension.swift */,
+			);
+			path = MKMapView;
+			sourceTree = "<group>";
+		};
+		196CF7FC2878822F008E351F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				196CF7FF28788289008E351F /* MapViewModelTests.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		196CF80128788351008E351F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				196CF8022878837B008E351F /* XCTestCase+loadFromStub.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		196CF80728789329008E351F /* ImageVC */ = {
+			isa = PBXGroup;
+			children = (
+				196CF8092878935F008E351F /* TraficDetailsViewModel */,
+				196CF8082878934F008E351F /* traficDetails */,
+			);
+			path = ImageVC;
+			sourceTree = "<group>";
+		};
+		196CF8082878934F008E351F /* traficDetails */ = {
+			isa = PBXGroup;
+			children = (
+				19F110AD2878A3D8002BCA8D /* traficDetails.swift */,
+				19F110AF2878A3EC002BCA8D /* traficDetails.storyboard */,
+			);
+			path = traficDetails;
+			sourceTree = "<group>";
+		};
+		196CF8092878935F008E351F /* TraficDetailsViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				19F110B12878A717002BCA8D /* TraficDetailsViewModel.swift */,
+			);
+			path = TraficDetailsViewModel;
+			sourceTree = "<group>";
+		};
 		19C0E09E2877233500B58EB8 = {
 			isa = PBXGroup;
 			children = (
@@ -99,10 +339,15 @@
 		19C0E0A92877233500B58EB8 /* TrafficCameraDemo */ = {
 			isa = PBXGroup;
 			children = (
+				196CF7F228785E42008E351F /* View */,
+				196CF7EE28785E03008E351F /* Extension */,
+				196CF7E7287858FE008E351F /* Utilities */,
+				196CF7E2287858B2008E351F /* Model */,
+				196CF7D428785756008E351F /* Ponso */,
+				19C0E0DD2877254E00B58EB8 /* Coordinator */,
+				19C0E0DB287723F200B58EB8 /* Flows */,
 				19C0E0AA2877233500B58EB8 /* AppDelegate.swift */,
 				19C0E0AC2877233500B58EB8 /* SceneDelegate.swift */,
-				19C0E0AE2877233500B58EB8 /* ViewController.swift */,
-				19C0E0B02877233500B58EB8 /* Main.storyboard */,
 				19C0E0B32877233F00B58EB8 /* Assets.xcassets */,
 				19C0E0B52877233F00B58EB8 /* LaunchScreen.storyboard */,
 				19C0E0B82877233F00B58EB8 /* Info.plist */,
@@ -113,6 +358,9 @@
 		19C0E0C02877234000B58EB8 /* TrafficCameraDemoTests */ = {
 			isa = PBXGroup;
 			children = (
+				194496CB2879A95100A316C0 /* Network */,
+				196CF80128788351008E351F /* Extensions */,
+				196CF7FC2878822F008E351F /* ViewModels */,
 				19C0E0C12877234000B58EB8 /* TrafficCameraDemoTests.swift */,
 			);
 			path = TrafficCameraDemoTests;
@@ -125,6 +373,77 @@
 				19C0E0CD2877234000B58EB8 /* TrafficCameraDemoUITestsLaunchTests.swift */,
 			);
 			path = TrafficCameraDemoUITests;
+			sourceTree = "<group>";
+		};
+		19C0E0DB287723F200B58EB8 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				19C0E0DC2877243100B58EB8 /* MainFlow */,
+				196CF7C928784CA5008E351F /* MapFlow */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		19C0E0DC2877243100B58EB8 /* MainFlow */ = {
+			isa = PBXGroup;
+			children = (
+				19C0E0F12877276400B58EB8 /* HomeVC */,
+			);
+			path = MainFlow;
+			sourceTree = "<group>";
+		};
+		19C0E0DD2877254E00B58EB8 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				19C0E0E4287725F100B58EB8 /* Protocols */,
+				19C0E0E1287725D000B58EB8 /* BaseCoordinator */,
+				19C0E0DE2877257800B58EB8 /* MainCoordinator */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		19C0E0DE2877257800B58EB8 /* MainCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				19C0E0ED287726E700B58EB8 /* MainCoordinator.swift */,
+			);
+			path = MainCoordinator;
+			sourceTree = "<group>";
+		};
+		19C0E0E1287725D000B58EB8 /* BaseCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				19C0E0E2287725DB00B58EB8 /* BaseCoordinator.swift */,
+			);
+			path = BaseCoordinator;
+			sourceTree = "<group>";
+		};
+		19C0E0E4287725F100B58EB8 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				19C0E0E52877260E00B58EB8 /* CoordinatorType.swift */,
+				19C0E0E72877262D00B58EB8 /* Coordinator.swift */,
+				19C0E0E92877263900B58EB8 /* StoryboardLoad.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		19C0E0F12877276400B58EB8 /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				19C0E0F4287727CB00B58EB8 /* Coordinator */,
+				19C0E0EF2877274F00B58EB8 /* HomeVC.swift */,
+				19C0E0F2287727A000B58EB8 /* HomeVC.storyboard */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		19C0E0F4287727CB00B58EB8 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				19C0E0F5287727E500B58EB8 /* HomeVCCoordinator.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +550,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19F110B02878A3EC002BCA8D /* traficDetails.storyboard in Resources */,
 				19C0E0B72877233F00B58EB8 /* LaunchScreen.storyboard in Resources */,
 				19C0E0B42877233F00B58EB8 /* Assets.xcassets in Resources */,
-				19C0E0B22877233500B58EB8 /* Main.storyboard in Resources */,
+				196CF7CD28784CDD008E351F /* MapVC.storyboard in Resources */,
+				19C0E0F3287727A000B58EB8 /* HomeVC.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +579,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19C0E0AF2877233500B58EB8 /* ViewController.swift in Sources */,
+				19C0E0EA2877263900B58EB8 /* StoryboardLoad.swift in Sources */,
+				19C0E0EE287726E700B58EB8 /* MainCoordinator.swift in Sources */,
+				19C0E0F02877274F00B58EB8 /* HomeVC.swift in Sources */,
 				19C0E0AB2877233500B58EB8 /* AppDelegate.swift in Sources */,
+				196CF7D9287857BF008E351F /* Items.swift in Sources */,
+				19C0E0E82877262D00B58EB8 /* Coordinator.swift in Sources */,
+				196CF7DD287857F8008E351F /* Location.swift in Sources */,
+				196CF7D728785781008E351F /* TrafficBase.swift in Sources */,
+				196CF7F528785E5B008E351F /* DefaultView.swift in Sources */,
+				196CF7EB28785920008E351F /* Constant.swift in Sources */,
+				196CF7CB28784CC1008E351F /* MapVC.swift in Sources */,
+				19C0E0F6287727E500B58EB8 /* HomeVCCoordinator.swift in Sources */,
+				196CF7ED28785AA3008E351F /* MapViewModel.swift in Sources */,
+				196CF7FA28787490008E351F /* MKMapView+Extension.swift in Sources */,
+				196CF7E6287858D4008E351F /* NetworkManager.swift in Sources */,
 				19C0E0AD2877233500B58EB8 /* SceneDelegate.swift in Sources */,
+				196CF7DF2878581D008E351F /* ImageMetadata.swift in Sources */,
+				196CF7DB287857DF008E351F /* Cameras.swift in Sources */,
+				19F110B22878A717002BCA8D /* TraficDetailsViewModel.swift in Sources */,
+				19F110AE2878A3D8002BCA8D /* traficDetails.swift in Sources */,
+				196CF7E928785908008E351F /* ErrorMessages.swift in Sources */,
+				19C0E0E3287725DB00B58EB8 /* BaseCoordinator.swift in Sources */,
+				196CF7F128785E1E008E351F /* UIViewController+Extension.swift in Sources */,
+				196CF7F728785FC0008E351F /* AnnotaionsViewModel.swift in Sources */,
+				196CF7E12878584F008E351F /* ApiInfo.swift in Sources */,
+				19C0E0E62877260E00B58EB8 /* CoordinatorType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +612,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				194496D02879AB7900A316C0 /* MockNetworkManagerTests.swift in Sources */,
 				19C0E0C22877234000B58EB8 /* TrafficCameraDemoTests.swift in Sources */,
+				196CF80028788289008E351F /* MapViewModelTests.swift in Sources */,
+				196CF8032878837B008E351F /* XCTestCase+loadFromStub.swift in Sources */,
+				194496CE2879A97F00A316C0 /* NetworkMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +645,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		19C0E0B02877233500B58EB8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				19C0E0B12877233500B58EB8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		19C0E0B52877233F00B58EB8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -444,7 +784,6 @@
 				INFOPLIST_FILE = TrafficCameraDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -472,7 +811,6 @@
 				INFOPLIST_FILE = TrafficCameraDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
